@@ -1,5 +1,6 @@
 import React from "react";
 import TransactionList from "./component/TransactionList";
+import styles from "./styles/styles.module.scss";
 
 const App: React.FC = () => {
   const transactions = [
@@ -65,6 +66,7 @@ const App: React.FC = () => {
           alignItems: "center",
           width: "600px",
         }}
+        className={styles.title}
       >
         <h1>Transactions List</h1>
         <h3 style={{ color: "gray" }}>See More</h3>

@@ -27,6 +27,17 @@
   &.outgoing {
     border-left: 4px solid red;
   }
+  @media (max-width: 650px) {
+    width: 320px;
+  }
+}
+@media (max-width: 650px) {
+  .title {
+    width: 320px !important;
+  }
+  .transactionContainer {
+    padding: 0px 0px !important;
+  }
 }
 
 .photo {
